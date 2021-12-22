@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "skipLibCheck": true,
+      "strict": true,
+      "types": [
+          "node",
+        // load Cypress global type
+        "cypress"
+      ]
+    },
+    "include": [
+      // process only spec files
+      "cypress/**/*.ts"   ]
+  }
